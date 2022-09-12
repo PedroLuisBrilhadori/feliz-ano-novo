@@ -1,0 +1,22 @@
+.buttons-create{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bnt{ 
+    height: 30px;
+}
+
+.button-create-confirm{
+    color: #ceecef;
+    background-color: green;
+    border: none;   
+    border-radius: 5%;
+}
+
+.button-create-cancel{
+    color: #ceecef;
+    background-color: red;
+    border: none;   
+    border-radius: 5%;
+}

@@ -1,0 +1,52 @@
+.card-conteiner {
+  background-color: #e7edea;
+  border-radius: 5px;
+  max-width: 350px;
+  box-shadow: 0 0 10px black;
+  margin: 25px;
+  flex: 0 0 100%;
+}
+
+.card-title {
+  border-bottom: 1px solid grey;
+  border-radius: 3px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.title-red {
+  background-color: #fb0c06;
+  color: white;
+}
+
+.title-yellow {
+  background-color: #ffc52c;
+  color: black;
+}
+
+.card-title-text {
+  margin: 15px;
+}
+
+.card-content {
+  text-align: center;
+  margin: 30px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border-top: 1px solid grey;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.credits {
+  margin: 20px;
+}

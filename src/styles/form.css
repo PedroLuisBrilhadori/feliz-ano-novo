@@ -1,0 +1,19 @@
+.form-message{
+    margin-top: 10px;
+}
+
+.inputs{
+    border-bottom: 1px solid black;
+}
+
+.labels{
+    color: black;
+}
+
+.inputs:focus {
+    border-bottom: 1px solid #030d4f;
+}
+
+.inputs:focus + .labels {
+    color: #030d4f;
+}

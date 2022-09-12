@@ -1,0 +1,104 @@
+.toolbar-app{
+    color: #e7edea;
+    height: 65px;
+    width: 100%;
+    background-color: #030d4f;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.button-toolbar{
+    background: none;
+    border: none;
+}
+
+.a-title{
+    text-decoration: none;
+}
+
+.a-title:visited{
+    color: #e7edea;
+}
+
+.app-title{
+    margin: auto;
+    font-size: large;
+}
+
+.toolbar-icon{
+    margin: 10px;
+}
+
+.icon{
+    margin: 10px;
+    border: black solid 1px;
+    border-radius: 50%;
+}
+
+.form-search{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.input-search{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #030d4f;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+.form-search:hover,
+.form-search:valid{
+    width: 200px;
+    cursor: pointer;
+}
+
+.form-search:hover input,
+.form-search:valid input{
+    display: block;
+}
+
+.form-search:hover .fa,
+.form-search:valid .fa{
+    background: #030d4f;
+    color: white;
+}
+
+.form-search:valid a {
+  display: block;
+}
+
