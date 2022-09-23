@@ -1,6 +1,8 @@
-import "../styles/style.scss";
+import "../styles/main.css";
+import "../styles/toolbar.css";
+import "../styles/card.css";
 const url = "https://app-mural.herokuapp.com/mural";
-const card = require("./card");
+import * as card from "./card";
 
 card.cardCreate(
   {

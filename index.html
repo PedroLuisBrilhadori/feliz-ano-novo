@@ -1,6 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
   <head>
-    <meta http-equiv="refresh" content="0; url = ./src" />
+    <title>Feliz 2022!!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body></body>
+  <body>
+    <div class="toolbar-app" id="toolbar">
+      <div class="app-title">
+        <a class="a-title" href="."> Mural 2022 </a>
+      </div>
+    </div>
+
+    <div id="cards" class="cards"></div>
+
+    <div hidden id="add-icon" class="toolbar-icon">
+      <a class="a-title" href="./src/create/">
+        <img class="icon ripple" src="./src/assets/icons/add.svg" />
+      </a>
+    </div>
+
+    <div id="loader" class="lds-ring">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <template>
+      <div class="card-conteiner margin-auto-center">
+        <div class="card-title" name="card-title">
+          <div class="card-title-text" id="card-title-text">
+            Tenha um feliz 2022!
+          </div>
+        </div>
+        <div class="card-content-conteiner">
+          <div class="card-content" id="card-content">Teste do conteudo</div>
+        </div>
+        <div name="card-footer" class="card-footer">
+          <div id="author" class="credits author">Autor:</div>
+          <div hidden id="to" class="credits to"></div>
+        </div>
+      </div>
+    </template>
+
+    <script type="module" src="/src/js/index.js"></script>
+  </body>
 </html>

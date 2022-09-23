@@ -4,7 +4,7 @@ function cardCreate(post, i) {
   document.getElementById("cards").appendChild(clone);
   post.message = setBreakLine(post.message);
 
-  cardContent = {
+  const cardContent = {
     title: post.title,
     message: post.message,
     author: post.author,
@@ -125,9 +125,4 @@ function cardPage() {
   return page;
 }
 
-module.exports = {
-  cardCreate,
-  cardFilter,
-  cardPage,
-  setCardContent,
-};
+export { cardCreate, cardFilter, cardPage, setCardContent };
